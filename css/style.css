@@ -1,0 +1,214 @@
+/*font-family: 'Playfair Display', serif;*/ 
+/*font-family: 'Ubuntu', sans-serif;*/
+body{
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif;
+color: #626262; 
+}
+/*Header Start */
+header{
+padding: 20px 0;
+}
+.container{
+width: 90%;
+margin: 0 auto;
+overflow: hidden;
+}
+.logo {
+width: 12%;
+float: left;
+}
+.logo img{
+width: 100%;
+margin-top: 10px; 
+}
+.menu {
+width: 65%;
+float: right;
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+color: #626262;
+text-transform:uppercase;
+text-decoration: none;
+display: inline-block;
+margin: 0 50px;
+transition: 0.5s;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a:hover{
+border-bottom: 1px solid #000000;
+}
+/*header end*/
+/*banner Start*/
+.banner{
+}
+.b_img{
+}
+.b_img img{
+width:100%;
+}
+/*banner End*/
+/*getaway Start*/
+.getaway{
+padding: 70px 0;
+}
+.container2{
+width:80%;
+margin:0 auto;
+}
+.g_content{}
+.light{
+font-family:'Ubuntu', sans-serif;
+font-size:14px;
+font-weight:300;
+color:#b4ad9e;
+text-transform:uppercase;
+margin:0;
+}
+.c_title{
+font-size:30px;
+font-weight:400;
+margin:25px 0 30px;
+}
+.c_p{
+font-size: 17px;
+line-height: 25px;
+word-spacing: 1px;
+margin-top: 0;
+margin-bottom: 45px;
+}
+/*getaway end*/
+/*blog Start*/
+.blog{
+padding: 70px 0;
+padding-bottom: 0;
+}
+.b_content{
+overflow: hidden;
+}
+.single{
+width: 47%;
+float: left;
+}
+.single:nth-child(even){
+margin-left: 6%;
+}
+.single img{
+width: 100%;
+margin-bottom: 25px;
+}
+.mb_remove{
+margin-bottom: 128px;
+}
+/*blog end*/
+/*Contact Start*/
+.news{
+background-color: #f0f0f0;
+padding: 70px 0;
+}
+.signup{
+text-align: center;
+}
+.signup h1{
+font-size: 34px;
+color: #333333;
+margin-top: 0;
+margin-bottom: 70px;
+}
+.signup form{
+position: relative;
+width: 400px;
+margin: 0 auto;
+}
+.signup form input{
+font-family: 'Playfair Display', serif;
+font-size: 14px;
+color: #626262;
+width: 345px;
+height: 45px;
+border: none;
+border-bottom: 1px solid #000000;
+background-color: transparent;
+padding-left: 5px;
+padding-right: 45px;
+}
+.signup form input:focus{
+outline: 0;
+}
+/*Contact end*/
+/*button start*/
+.load{
+padding: 100px 0;
+text-align: center;
+}
+.load button{
+width: 165px;
+height: 70px;
+background-color: white;
+border: 1px solid #626262;
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+color: #626262;
+cursor: pointer;
+transition: .3s;
+}
+.load button:hover {
+background-color: #626262;
+color: white;
+}
+/*button end*/
+/*Footer start */
+.footer{
+width: 100%;
+background-color: #f0f0f0;
+}
+.terms{
+width:40%;	
+}
+.terms ul{
+}
+.terms ul li{
+list-style: none;
+float: left;
+}
+.terms ul li a{
+text-decoration: none;
+display: inline-block;
+padding: 0px 11px;
+color: black;
+}
+.terms ul li:last-child a{
+padding-left: 0;
+}
+.follow{
+width:40%;
+float:right;
+margin-left: 50px;
+}
+.follow ul{
+float:right;
+}
+.follow ul li{
+list-style: none;
+float:left;
+}
+.follow ul li a{
+text-decoration: none;
+padding: 0px 11px;
+display: inline-block;
+color: black;
+}
+.follow ul li:last-child a{
+padding-left: 0px;
+}
+/*footer end*/
